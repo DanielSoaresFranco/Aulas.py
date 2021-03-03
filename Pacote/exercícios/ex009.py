@@ -1,0 +1,17 @@
+n1 = int(input('qual tabuada? '))
+limpa = '\033[m'
+amareloepreto = '\033[30;43m'
+x10 = ' |{} X 10 = {}| '.format(n1, 10 * n1)
+tracinhos = len(x10)
+print(amareloepreto, '-' * tracinhos, limpa)
+print('{} |{} X  1 = {}| {}'.format(amareloepreto, n1, 1 * n1, limpa))
+print('{} |{} X  2 = {}| {}'.format(amareloepreto, n1, 2 * n1, limpa))
+print('{} |{} X  3 = {}| {}'.format(amareloepreto, n1, 3 * n1, limpa))
+print('{} |{} X  4 = {}| {}'.format(amareloepreto, n1, 4 * n1, limpa))
+print('{} |{} X  5 = {}| {}'.format(amareloepreto, n1, 5 * n1, limpa))
+print('{} |{} X  6 = {}| {}'.format(amareloepreto, n1, 6 * n1, limpa))
+print('{} |{} X  7 = {}| {}'.format(amareloepreto, n1, 7 * n1, limpa))
+print('{} |{} X  8 = {}| {}'.format(amareloepreto, n1, 8 * n1, limpa))
+print('{} |{} X  9 = {}| {}'.format(amareloepreto, n1, 9 * n1, limpa))
+print('{} |{} X 10 = {}| {}'.format(amareloepreto, n1, 10 * n1, limpa))
+print(amareloepreto, '-' * tracinhos, limpa)
