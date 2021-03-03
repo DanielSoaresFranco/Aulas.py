@@ -1,2 +1,2 @@
 # Aulas.py
- Aulas e exercícios do curso de Python
+ Aulas do curso de Python no Curso Em Vídeo
